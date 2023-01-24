@@ -14,31 +14,37 @@ export const Projects = () => {
             title: "BookSpot",
             description: "Find your favorite book",
             imgUrl: projImg1,
+            Git: "https://github.com/Ahsan-Zaidi/library",
         },
         {
             title: "Gericht",
             description: "Restaurant Website",
             imgUrl: projImg2,
+            Git: "https://github.com/Ahsan-Zaidi/Restaurant",
         },
         {
             title: "Project Mgmt",
             description: "Managment System",
             imgUrl: projImg3,
+            Git: "https://github.com/Ahsan-Zaidi/project-mgmt",
         },
         {
             title: "Password Generator",
             description: "Generates unique passwords",
             imgUrl: projImg4,
+            Git: "https://github.com/Ahsan-Zaidi/Password-Generator",
         },
         {
             title: "Snake",
             description: "Classic snake game",
             imgUrl: projImg5,
+            Git: "https://github.com/Ahsan-Zaidi/snake",
         },
         {
-            title: "Pizza Hunt",
-            description: "Style your pizza",
-            imgUrl: projImg6
+            title: "Code Quiz",
+            description: "Test your coding skills",
+            imgUrl: projImg6,
+            Git: "https://github.com/Ahsan-Zaidi/code-quiz",
         },
     ];
 
@@ -50,7 +56,7 @@ export const Projects = () => {
                         <h2>Projects</h2>
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry Ipsum has been the industry's standard dummy text.</p>
                         <Tab.Container id="projects-tabs" defaultActiveKey="first">
-                            <Nav variant="pills" defaultActiveKey="/home">
+                        <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                                 <Nav.Item>
                                     <Nav.Link eventKey="first">Tab One</Nav.Link>
                                 </Nav.Item>
