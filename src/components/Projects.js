@@ -1,4 +1,12 @@
-import { Nav, Tab } from "react-bootstrap";
+import { Nav, Tab, Container, Row, Col } from "react-bootstrap";
+import { ProjectCard } from "./ProjectCard";
+import projImg1 from '../assets/img/project-img1.jpg';
+import projImg2 from '../assets/img/project-img2.jpg';
+import projImg3 from '../assets/img/project-img3.jpg';
+import projImg4 from '../assets/img/project-img4.jpg';
+import projImg5 from '../assets/img/project-img5.jpg';
+import projImg6 from '../assets/img/project-img6.jpg';
+import colorSharp2 from '../assets/img/color-sharp2.png';
 
 export const Projects = () => {
     const projects = [
@@ -30,7 +38,7 @@ export const Projects = () => {
         {
             title: "Pizza Hunt",
             description: "Style your pizza",
-            imgUrl: projimg6
+            imgUrl: projImg6
         },
     ];
 
@@ -59,7 +67,10 @@ export const Projects = () => {
                                         {
                                             projects.map((project, index) => {
                                                 return (
-                                                    <p>{project.title}</p>
+                                                    <ProjectCard
+                                                        key={index}
+                                                        {...project}
+                                                    />
                                                 )
                                             })
                                         }
@@ -72,6 +83,7 @@ export const Projects = () => {
                     </Col>
                 </Row>
             </Container>
+            <img className="background-image-right" src={colorSharp2} alt="bg"></img> 
         </section>
     )
 }
