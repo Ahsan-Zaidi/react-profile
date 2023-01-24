@@ -59,7 +59,7 @@ export const Skills = () => {
                                 </div>
                                 <div className="item">
                                     <img src={meter3} alt="Image" />
-                                    <h5>TECHNOLOGIES</h5>
+                                    <h5>TECHNOLOGY</h5>
                                     <ul className='skill-item-list'>
                                         <li>GitHub</li>
                                         <li>Heroku</li>
@@ -72,7 +72,7 @@ export const Skills = () => {
                                     <img src={meter2} alt="Image" />
                                     <h5>INTANGIBLES</h5>
                                     <ul className='skill-item-list'>
-                                        <li>Server Side API</li>
+                                        <li>SS API</li>
                                         <li>REST API</li>
                                         <li>OOP</li>
                                         <li>MVC</li>
