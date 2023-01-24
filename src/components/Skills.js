@@ -37,19 +37,47 @@ export const Skills = () => {
                             <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                                 <div className="item">
                                     <img src={meter1} alt="Image" />
-                                    <h5>Frontend</h5>
+                                    <h5>FRONTEND</h5>
+                                    <ul className='skill-item-list'>
+                                        <li>Html5</li>
+                                        <li>Css</li>
+                                        <li>Javascript</li>
+                                        <li>REACT</li>
+                                        <li>Bootstrap</li>
+                                    </ul>
                                 </div>
                                 <div className="item">
                                     <img src={meter1} alt="Image" />
-                                    <h5>Backend</h5>
+                                    <h5>BACKEND</h5>
+                                    <ul className='skill-item-list'>
+                                        <li>Node JS</li>
+                                        <li>Express</li>
+                                        <li>MongoDB</li>
+                                        <li>MySQL</li>
+                                        <li>Python</li>
+                                    </ul>
                                 </div>
                                 <div className="item">
                                     <img src={meter3} alt="Image" />
-                                    <h5>Technologies</h5>
+                                    <h5>TECHNOLOGIES</h5>
+                                    <ul className='skill-item-list'>
+                                        <li>GitHub</li>
+                                        <li>Heroku</li>
+                                        <li>Insomnia</li>
+                                        <li>Jest</li>
+                                        <li>VS code</li>
+                                    </ul>
                                 </div>
                                 <div className="item">
                                     <img src={meter2} alt="Image" />
-                                    <h5>Design</h5>
+                                    <h5>INTANGIBLES</h5>
+                                    <ul className='skill-item-list'>
+                                        <li>Server Side API</li>
+                                        <li>REST API</li>
+                                        <li>OOP</li>
+                                        <li>MVC</li>
+                                        <li>MERN</li>
+                                    </ul>
                                 </div>
                             </Carousel>
                         </div>
