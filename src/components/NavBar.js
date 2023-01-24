@@ -4,6 +4,7 @@ import logo2 from '../assets/img/logo-footer.svg';
 import navIcon1 from '../assets/img/nav-icon1.svg';
 import navIcon2 from '../assets/img/nav-icon2.svg';
 import navIcon3 from '../assets/img/nav-icon3.svg';
+import CV from '../assets/img/CV.pdf';
 
 export const NavBar = () => {
     const [activeLink, setActiveLink] = useState('home');
@@ -48,8 +49,8 @@ export const NavBar = () => {
                             <a href='https://github.com/Ahsan-Zaidi' target="_blank" rel="noreferrer"><img src={navIcon2} alt='' /></a>
                             <a href='https://www.instagram.com/' target="_blank" rel="noreferrer"><img src={navIcon3} alt='' /></a>
                         </div>
-                        <button className='vvd' onClick={() => console.log('Connect')}>
-                            <span>Let's Connect</span>
+                        <button className='vvd'>
+                            <a href={CV} download>CV/Resume</a>
                         </button>
                     </span>
                 </Navbar.Collapse>
