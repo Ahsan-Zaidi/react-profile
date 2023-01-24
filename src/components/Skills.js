@@ -1,4 +1,3 @@
-import { Container, Row, Col } from 'react-bootstrap';
 import Carousel from 'react-multi-carousel';
 import "react-multi-carousel/lib/styles.css";
 import meter1 from '../assets/img/meter1.svg';
@@ -36,7 +35,7 @@ export const Skills = () => {
                             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br></br> Lorem Ipsum has been the industry's standard dummy text.</p>
                             <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                                 <div className="item">
-                                    <img src={meter1} alt="Image" />
+                                    <img src={meter1} alt="meter" />
                                     <h5>FRONTEND</h5>
                                     <ul className='skill-item-list'>
                                         <li>Html5</li>
@@ -47,18 +46,18 @@ export const Skills = () => {
                                     </ul>
                                 </div>
                                 <div className="item">
-                                    <img src={meter1} alt="Image" />
+                                    <img src={meter1} alt="meter" />
                                     <h5>BACKEND</h5>
                                     <ul className='skill-item-list'>
                                         <li>Node JS</li>
                                         <li>Express</li>
                                         <li>MongoDB</li>
                                         <li>MySQL</li>
-                                        <li>Python</li>
+                                        <li>GraphQL</li>
                                     </ul>
                                 </div>
                                 <div className="item">
-                                    <img src={meter3} alt="Image" />
+                                    <img src={meter3} alt="meter" />
                                     <h5>TECHNOLOGY</h5>
                                     <ul className='skill-item-list'>
                                         <li>GitHub</li>
@@ -69,7 +68,7 @@ export const Skills = () => {
                                     </ul>
                                 </div>
                                 <div className="item">
-                                    <img src={meter2} alt="Image" />
+                                    <img src={meter2} alt="meter" />
                                     <h5>INTANGIBLES</h5>
                                     <ul className='skill-item-list'>
                                         <li>SS API</li>
@@ -84,7 +83,7 @@ export const Skills = () => {
                     </div>
                 </div>
             </div>
-            <img className="background-image-left" src={colorSharp} alt="Image" />
+            <img className="background-image-left" src={colorSharp} alt="background1" />
         </section>
     )
 }
