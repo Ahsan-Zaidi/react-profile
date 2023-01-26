@@ -6,6 +6,7 @@ import projImg3 from '../assets/img/project-img3.jpg';
 import projImg4 from '../assets/img/project-img4.jpg';
 import projImg5 from '../assets/img/project-img5.jpg';
 import projImg6 from '../assets/img/project-img6.jpg';
+import projImg7 from '../assets/img/project-img7.jpg';
 import colorSharp2 from '../assets/img/color-sharp2.png';
 
 export const Projects = () => {
@@ -15,6 +16,12 @@ export const Projects = () => {
             description: "Find your favorite book",
             imgUrl: projImg1,
             Git: "https://github.com/Ahsan-Zaidi/library",
+        },
+        {
+            title: "Weather-app",
+            description: "Check the forecast for today",
+            imgUrl: projImg7,
+            Git: "https://github.com/Ahsan-Zaidi/weather-app", 
         },
         {
             title: "Gericht",
@@ -35,18 +42,21 @@ export const Projects = () => {
             Git: "https://github.com/Ahsan-Zaidi/Password-Generator",
         },
         {
-            title: "Snake",
-            description: "Classic snake game",
-            imgUrl: projImg5,
-            Git: "https://github.com/Ahsan-Zaidi/snake",
-        },
-        {
             title: "Code Quiz",
             description: "Test your coding skills",
             imgUrl: projImg6,
             Git: "https://github.com/Ahsan-Zaidi/code-quiz",
         },
     ];
+
+    const games = [
+        {
+            title: "Snake",
+            description: "Classic snake game",
+            imgUrl: projImg5,
+            Git: "https://github.com/Ahsan-Zaidi/snake",
+        }
+    ]
 
     return (
         <section className="project" id="projects">
@@ -82,8 +92,21 @@ export const Projects = () => {
                                         }
                                     </Row>
                                 </Tab.Pane>
-                                <Tab.Pane eventKey="second">Lorem</Tab.Pane>
-                                <Tab.Pane eventKey="third">Lorem</Tab.Pane>
+                                <Tab.Pane eventKey="second">
+                                <Row>
+                                        {
+                                            games.map((game, index) => {
+                                                return (
+                                                    <ProjectCard
+                                                        key={index}
+                                                        {...game}
+                                                    />
+                                                )
+                                            })
+                                        }
+                                    </Row>
+                                </Tab.Pane>
+                                <Tab.Pane eventKey="third">Coming soon...</Tab.Pane>
                             </Tab.Content>
                         </Tab.Container>
                     </Col>
