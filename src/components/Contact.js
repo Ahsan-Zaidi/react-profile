@@ -12,6 +12,9 @@ export const Contact = () => {
                     <Col md={6}>
                         <h2>Get In Touch</h2>
                         <small>Feel free to reach out to me at...</small>
+                        <div className='email-info'>
+                            <h4>zaidiahsan.r@gmail.com</h4>
+                        </div>
                     </Col>
                 </Row>
             </Container>
