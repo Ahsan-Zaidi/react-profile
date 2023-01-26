@@ -11,6 +11,7 @@ export const Contact = () => {
                     </Col>
                     <Col md={6}>
                         <h2>Get In Touch</h2>
+                        <small>Feel free to reach out to me at...</small>
                     </Col>
                 </Row>
             </Container>

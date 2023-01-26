@@ -498,8 +498,21 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
   padding: 60px 0 200px 0;
 }
+
 .contact img {
-  width: 92%;
+  animation: updown 3s linear infinite;
+}
+
+@keyframes updown {
+  0% {
+    transform: translateY(-10px);
+  }
+  50% {
+    transform: translateY(10PX);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
 }
 
 .contact h2 {
@@ -508,6 +521,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-bottom: 5px;
   margin-top: 50px;
 } 
+
+.contact small {
+  font-size: 10px;
+  font-weight: 400;
+  margin-top: 5px;
+}
 
 /* Footer styles */
 
