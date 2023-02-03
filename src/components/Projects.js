@@ -7,6 +7,7 @@ import projImg4 from '../assets/img/project-img4.jpg';
 import projImg5 from '../assets/img/project-img5.jpg';
 import projImg6 from '../assets/img/project-img6.jpg';
 import projImg7 from '../assets/img/project-img7.jpg';
+import projImg8 from '../assets/img/project-img8.jpg';
 import colorSharp2 from '../assets/img/color-sharp2.png';
 
 export const Projects = () => {
@@ -24,10 +25,10 @@ export const Projects = () => {
             Git: "https://github.com/Ahsan-Zaidi/weather-app", 
         },
         {
-            title: "Gericht",
-            description: "Restaurant Website",
-            imgUrl: projImg2,
-            Git: "https://github.com/Ahsan-Zaidi/Restaurant",
+            title: "OpenAI Image-generator",
+            description: "Generate an image using AI",
+            imgUrl: projImg8,
+            Git: "https://github.com/Ahsan-Zaidi/ai-image-generator",
         },
         {
             title: "Project Mgmt",
@@ -36,10 +37,10 @@ export const Projects = () => {
             Git: "https://github.com/Ahsan-Zaidi/project-mgmt",
         },
         {
-            title: "Password Generator",
-            description: "Generates unique passwords",
-            imgUrl: projImg4,
-            Git: "https://github.com/Ahsan-Zaidi/Password-Generator",
+            title: "Gericht",
+            description: "Restaurant Website",
+            imgUrl: projImg2,
+            Git: "https://github.com/Ahsan-Zaidi/Restaurant",
         },
         {
             title: "Code Quiz",
@@ -55,7 +56,13 @@ export const Projects = () => {
             description: "Classic snake game",
             imgUrl: projImg5,
             Git: "https://github.com/Ahsan-Zaidi/snake",
-        }
+        },
+        {
+            title: "Password Generator",
+            description: "Generates unique passwords",
+            imgUrl: projImg4,
+            Git: "https://github.com/Ahsan-Zaidi/Password-Generator",
+        },
     ]
 
     return (
