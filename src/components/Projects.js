@@ -8,6 +8,7 @@ import projImg5 from '../assets/img/project-img5.jpg';
 import projImg6 from '../assets/img/project-img6.jpg';
 import projImg7 from '../assets/img/project-img7.jpg';
 import projImg8 from '../assets/img/project-img8.jpg';
+import projImg9 from '../assets/img/project-img9.jpg';
 import colorSharp2 from '../assets/img/color-sharp2.png';
 
 export const Projects = () => {
@@ -19,16 +20,16 @@ export const Projects = () => {
             Git: "https://github.com/Ahsan-Zaidi/library",
         },
         {
+            title: 'Getup-Exercise',
+            description: 'Find a workout plan for you',
+            imgUrl: projImg9,
+            Git: "https://github.com/Ahsan-Zaidi/getup-exercise",
+        },
+        {
             title: "Weather-app",
             description: "Check the forecast for today",
             imgUrl: projImg7,
             Git: "https://github.com/Ahsan-Zaidi/weather-app", 
-        },
-        {
-            title: "OpenAI Image-generator",
-            description: "Generate an image using AI",
-            imgUrl: projImg8,
-            Git: "https://github.com/Ahsan-Zaidi/ai-image-generator",
         },
         {
             title: "Project Mgmt",
@@ -37,31 +38,37 @@ export const Projects = () => {
             Git: "https://github.com/Ahsan-Zaidi/project-mgmt",
         },
         {
+            title: "OpenAI Image-generator",
+            description: "Generate an image using AI",
+            imgUrl: projImg8,
+            Git: "https://github.com/Ahsan-Zaidi/ai-image-generator",
+        },
+        {
             title: "Gericht",
             description: "Restaurant Website",
             imgUrl: projImg2,
             Git: "https://github.com/Ahsan-Zaidi/Restaurant",
         },
+    ];
+
+    const games = [
         {
             title: "Code Quiz",
             description: "Test your coding skills",
             imgUrl: projImg6,
             Git: "https://github.com/Ahsan-Zaidi/code-quiz",
         },
-    ];
-
-    const games = [
-        {
-            title: "Snake",
-            description: "Classic snake game",
-            imgUrl: projImg5,
-            Git: "https://github.com/Ahsan-Zaidi/snake",
-        },
         {
             title: "Password Generator",
             description: "Generates unique passwords",
             imgUrl: projImg4,
             Git: "https://github.com/Ahsan-Zaidi/Password-Generator",
+        },
+        {
+            title: "Snake",
+            description: "Classic snake game",
+            imgUrl: projImg5,
+            Git: "https://github.com/Ahsan-Zaidi/snake",
         },
     ]
 
