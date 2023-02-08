@@ -18,36 +18,42 @@ export const Projects = () => {
             description: "Find your favorite book",
             imgUrl: projImg1,
             Git: "https://github.com/Ahsan-Zaidi/library",
+            stack: "Frontend-API",
         },
         {
             title: 'Getup-Exercise',
             description: 'Find a workout plan for you',
             imgUrl: projImg9,
             Git: "https://github.com/Ahsan-Zaidi/getup-exercise",
+            stack: "Frontend-API",
         },
         {
             title: "Weather-app",
             description: "Check the forecast for today",
             imgUrl: projImg7,
             Git: "https://github.com/Ahsan-Zaidi/weather-app", 
+            stack: "Frontend-API",
         },
         {
             title: "Project Mgmt",
             description: "Managment System",
             imgUrl: projImg3,
             Git: "https://github.com/Ahsan-Zaidi/project-mgmt",
+            stack: "MERN",
         },
         {
             title: "OpenAI Image-generator",
             description: "Generate an image using AI",
             imgUrl: projImg8,
             Git: "https://github.com/Ahsan-Zaidi/ai-image-generator",
+            stack: "Frontend-API",
         },
         {
             title: "Gericht",
             description: "Restaurant Website",
             imgUrl: projImg2,
             Git: "https://github.com/Ahsan-Zaidi/Restaurant",
+            stack: "Frontend-REACT",
         },
     ];
 
@@ -57,18 +63,21 @@ export const Projects = () => {
             description: "Test your coding skills",
             imgUrl: projImg6,
             Git: "https://github.com/Ahsan-Zaidi/code-quiz",
+            stack: "Html-Css-JavaScript",
         },
         {
             title: "Password Generator",
             description: "Generates unique passwords",
             imgUrl: projImg4,
             Git: "https://github.com/Ahsan-Zaidi/Password-Generator",
+            stack: "Html-Css-JavaScript",
         },
         {
             title: "Snake",
             description: "Classic snake game",
             imgUrl: projImg5,
             Git: "https://github.com/Ahsan-Zaidi/snake",
+            stack: "Html-Css-JavaScript",
         },
     ]
 
