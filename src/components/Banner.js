@@ -48,7 +48,7 @@ export const Banner = () => {
                         <span className="tagline">Welcome to my portfolio</span>
                         <h1>{`Hi I'm Ahsan a `}<span className="wrap">{text}</span></h1>
                         <p>
-                            Greetings everyone! My name is Ahsan and I'm a Fullstack web developer. I began my coding journey at the University of Texas as San Antonio. There I learned the fundamentals of coding; practicing problem solving using a variety of different languages.
+                            Greetings everyone! My name is Ahsan and I'm a Fullstack web developer. I began my coding journey at the University of Texas at San Antonio. There I learned the fundamentals of coding; practicing problem solving using a variety of different languages.
                             More recently, I attended Fullstack developer bootcamp at the University of Texas at Austin to make headway and embellish my coding background. Throughout my experiences I've become familiar with industy challenges and how I can apply my skills in design/
                             development to exceed client expectations.
                         </p>
