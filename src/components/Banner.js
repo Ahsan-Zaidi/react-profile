@@ -47,7 +47,11 @@ export const Banner = () => {
                     <Col xs={12} md={6} xl={7}>
                         <span className="tagline">Welcome to my portfolio</span>
                         <h1>{`Hi I'm Ahsan a `}<span className="wrap">{text}</span></h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <p>
+                            Greetings everyone! My name is Ahsan and I'm a Fullstack web developer. I began my coding journey at the University of Texas as San Antonio. There I learned the fundamentals of coding; practicing problem solving using a variety of different languages.
+                            More recently, I attended Fullstack developer bootcamp at the University of Texas at Austin to make headway and embellish my coding background. Throughout my experiences I've become familiar with industy challenges and how I can apply my skills in design/
+                            development to exceed client expectations.
+                        </p>
                         <button href="#connect">Let's Connect <ArrowRightCircle size={25}/></button>
                     </Col>
                     <Col xs={12} md={6} xl={5}>
