@@ -345,6 +345,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 50%;
   margin: 0 auto 15px auto;
 }
+
 .background-image-left {
   top: 28%;
   position: absolute;
@@ -495,8 +496,17 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /* Contact CSS */
 .contact {
-  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+  /*linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);*/
   padding: 60px 0 60px 0;
+  background-color: #121212;
+}
+
+.background-image {
+  top: 28%;
+  position: absolute;
+  bottom: 0;
+  width: 40%;
+  z-index: -4;
 }
 
 .contact .contact-img {
@@ -534,6 +544,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .footer {
   margin-top: 10px;
+  background-color: black;
 }
 
 .footer p {
