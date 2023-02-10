@@ -52,7 +52,7 @@ export const Banner = () => {
                             More recently, I attended Fullstack developer bootcamp at the University of Texas at Austin to make headway and embellish my coding background. Throughout my experiences I've become familiar with industy challenges and how I can apply my skills in design/development
                             to exceed client expectations.
                         </p>
-                        <button href="#contact">Let's Connect <ArrowRightCircle size={25}/></button>
+                        {/**<button href="#contact">Let's Connect <ArrowRightCircle size={25}/></button> */}
                     </Col>
                     <Col xs={12} md={6} xl={5}>
                         <img src={headerImg} alt="Header Img" />
