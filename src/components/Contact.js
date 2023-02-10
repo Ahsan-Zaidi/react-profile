@@ -11,7 +11,7 @@ export const Contact = () => {
                         <img src={contactImg} alt="contact us" className='contact-img' />
                     </Col>
                     <Col md={6}>
-                        <h2>Contact</h2>
+                        <h2>Contact Me</h2>
                             <div className='message-me'>
                                 <a href="mailto:zaidiahsan.r@gmail.com" target="_blank" rel="noreferrer">
                                     <img src={MessageImage} alt='icon' className='msg-icon'/>
