@@ -1,7 +1,6 @@
 import { Container, Row, Col } from 'react-bootstrap';
 import contactImg from '../assets/img/contact-img.svg';
 import MessageImage from '../assets/img/icon.png';
-import backgroundImg from '../assets/img/color-sharp.png';
 
 export const Contact = () => {
     return (
@@ -21,7 +20,6 @@ export const Contact = () => {
                     </Col>
                 </Row>
             </Container>
-            <img src={backgroundImg} alt='sharp-color' className='background-image' />
         </section>
     )
 }

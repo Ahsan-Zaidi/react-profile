@@ -33,7 +33,7 @@ body {
   font-weight: 400;
   overflow-x: hidden;
   position: relative;
-  background-color: #121212 !important;
+  background-color: black !important;
   color: #fff !important;
   font-family: 'Centra', sans-serif !important;
 }
@@ -485,6 +485,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-size: 15px;
   letter-spacing: 0.8px;
 }
+
 .background-image-right {
   top: 20%;
   position: absolute;
@@ -521,11 +522,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .contact .message-me .msg-icon {
-  width: 50%;
+  margin-top: 5%;
+  width: 40%;
 }
 
 .contact .message-me .msg-icon:hover {
-  width: 55%;
+  width: 45%;
 }
 
 @keyframes updown {
