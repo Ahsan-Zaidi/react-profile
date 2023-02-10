@@ -496,11 +496,26 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /* Contact CSS */
 .contact {
   background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
-  padding: 60px 0 200px 0;
+  padding: 60px 0 60px 0;
 }
 
-.contact img {
+.contact .contact-img {
   animation: updown 3s linear infinite;
+}
+
+.contact h2 {
+  font-size: 45px;
+	font-weight: 700;
+  text-align: center;
+  margin-top: 10%;
+}
+
+.contact .message-me .msg-icon {
+  width: 50%;
+}
+
+.contact .message-me .msg-icon:hover {
+  width: 55%;
 }
 
 @keyframes updown {
@@ -513,19 +528,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   100% {
     transform: translateY(-10px);
   }
-}
-
-.contact h2 {
-	font-size: 45px;
-	font-weight: 700;
-  margin-bottom: 5px;
-  margin-top: 50px;
-} 
-
-.contact small {
-  font-size: 10px;
-  font-weight: 400;
-  margin-top: 5px;
 }
 
 /* Footer styles */

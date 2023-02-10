@@ -1,5 +1,6 @@
 import { Container, Row, Col } from 'react-bootstrap';
 import contactImg from '../assets/img/contact-img.svg';
+import MessageImage from '../assets/img/icon.png';
 
 export const Contact = () => {
     return (
@@ -7,14 +8,15 @@ export const Contact = () => {
             <Container className="align-items-center">
                 <Row>
                     <Col md={6}>
-                        <img src={contactImg} alt="contact us" />
+                        <img src={contactImg} alt="contact us" className='contact-img' />
                     </Col>
                     <Col md={6}>
-                        <h2>Get In Touch</h2>
-                        <small>Feel free to reach out to me at...</small>
-                        <div className='email-info'>
-                            <h4>zaidiahsan.r@gmail.com</h4>
-                        </div>
+                        <h2>Contact</h2>
+                            <div className='message-me'>
+                                <a href="mailto:zaidiahsan.r@gmail.com" target="_blank" rel="noreferrer">
+                                    <img src={MessageImage} alt='icon' className='msg-icon'/>
+                                </a>
+                            </div>
                     </Col>
                 </Row>
             </Container>
