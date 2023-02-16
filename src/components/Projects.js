@@ -9,77 +9,96 @@ import projImg6 from '../assets/img/project-img6.jpg';
 import projImg7 from '../assets/img/project-img7.jpg';
 import projImg8 from '../assets/img/project-img8.jpg';
 import projImg9 from '../assets/img/project-img9.jpg';
+import projImg10 from '../assets/img/project-img10.jpg';
+import projImg11 from '../assets/img/project-img11.jpg';
 import colorSharp2 from '../assets/img/color-sharp2.png';
 
 export const Projects = () => {
-    const projects = [
+    const project = [
         {
             title: "BookSpot",
             description: "Find your favorite book",
             imgUrl: projImg1,
             Git: "https://github.com/Ahsan-Zaidi/library",
-            stack: "Frontend-API",
-        },
-        {
-            title: 'Getup-Exercise',
-            description: 'Find a workout plan for you',
-            imgUrl: projImg9,
-            Git: "https://github.com/Ahsan-Zaidi/getup-exercise",
-            stack: "Frontend-API",
+            demo: "https://ahsan-zaidi.github.io/library/",
         },
         {
             title: "Weather-app",
             description: "Check the forecast for today",
-            imgUrl: projImg7,
+            imgUrl: projImg2,
             Git: "https://github.com/Ahsan-Zaidi/weather-app", 
-            stack: "Frontend-API",
+            demo: "https://ahsan-zaidi.github.io/weather-app/",
         },
         {
-            title: "Project Mgmt",
-            description: "Managment System",
+            title: 'Getup-Exercise',
+            description: 'Find a workout plan for you',
             imgUrl: projImg3,
-            Git: "https://github.com/Ahsan-Zaidi/project-mgmt",
-            stack: "MERN",
+            Git: "https://github.com/Ahsan-Zaidi/getup-exercise",
+            demo: "https://ahsan-zaidi.github.io/getup-exercise/",
         },
         {
             title: "OpenAI Image-generator",
             description: "Generate an image using AI",
-            imgUrl: projImg8,
+            imgUrl: projImg4,
             Git: "https://github.com/Ahsan-Zaidi/ai-image-generator",
-            stack: "Frontend-API",
+            demo: "https://github.com/Ahsan-Zaidi/ai-image-generator",
         },
         {
-            title: "Gericht",
-            description: "Restaurant Website",
-            imgUrl: projImg2,
-            Git: "https://github.com/Ahsan-Zaidi/Restaurant",
-            stack: "Frontend-REACT",
+            title: "Password Generator",
+            description: "Generates unique passwords",
+            imgUrl: projImg5,
+            Git: "https://github.com/Ahsan-Zaidi/Password-Generator",
+            demo: "https://ahsan-zaidi.github.io/Password-Generator/",
         },
-    ];
-
-    const games = [
         {
             title: "Code Quiz",
             description: "Test your coding skills",
             imgUrl: projImg6,
             Git: "https://github.com/Ahsan-Zaidi/code-quiz",
-            stack: "Html-Css-JavaScript",
+            demo: "https://ahsan-zaidi.github.io/code-quiz/",
+        },
+    ];
+
+    const back = [
+        {
+            title: "Social-Network-API",
+            description: "Backend for social network application",
+            imgUrl: projImg7,
+            Git: "https://github.com/Ahsan-Zaidi/social-network-api",
+            demo: "https://github.com/Ahsan-Zaidi/social-network-api/blob/main/assets/DEMO.gif",
         },
         {
-            title: "Password Generator",
-            description: "Generates unique passwords",
-            imgUrl: projImg4,
-            Git: "https://github.com/Ahsan-Zaidi/Password-Generator",
-            stack: "Html-Css-JavaScript",
+            title: "E-commerceBackend",
+            description: "Backend for E-commerce website",
+            imgUrl: projImg8,
+            Git: "https://github.com/Ahsan-Zaidi/E-commerceBackEnd",
+            demo: "https://github.com/Ahsan-Zaidi/E-commerceBackEnd/blob/main/assets/images/Demo.gif",
         },
         {
-            title: "Snake",
-            description: "Classic snake game",
-            imgUrl: projImg5,
-            Git: "https://github.com/Ahsan-Zaidi/snake",
-            stack: "Html-Css-JavaScript",
+            title: "Employee tracker",
+            description: "Create employee db and tracker",
+            imgUrl: projImg9,
+            Git: "https://github.com/Ahsan-Zaidi/employee-tracker",
+            demo: "https://github.com/Ahsan-Zaidi/employee-tracker/blob/main/assets/demo/Demos.gif",
         },
-    ]
+        {
+            title: "Team Profile Generator",
+            description: "Generate a team",
+            imgUrl: projImg10,
+            Git: "https://github.com/Ahsan-Zaidi/Team-profile-generator",
+            demo: "https://github.com/Ahsan-Zaidi/Team-profile-generator/blob/main/src/demo.webm",
+        },
+    ];
+
+    const fullstack = [
+        {
+            title: "Project Mgmt",
+            description: "Managment System",
+            imgUrl: projImg11,
+            Git: "https://github.com/Ahsan-Zaidi/project-mgmt",
+            demo: "https://github.com/Ahsan-Zaidi/project-mgmt",
+        },
+    ];
 
     return (
         <section className="project" id="projects">
@@ -91,20 +110,20 @@ export const Projects = () => {
                         <Tab.Container id="projects-tabs" defaultActiveKey="first">
                         <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                                 <Nav.Item>
-                                    <Nav.Link eventKey="first">Tab One</Nav.Link>
+                                    <Nav.Link eventKey="first">Frontend</Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item>
-                                    <Nav.Link eventKey="second">Tab Two</Nav.Link>
+                                    <Nav.Link eventKey="second">Backend</Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item>
-                                    <Nav.Link eventKey="third">Tab Three</Nav.Link>
+                                    <Nav.Link eventKey="third">Fullstack</Nav.Link>
                                 </Nav.Item>
                             </Nav>
                             <Tab.Content>
                                 <Tab.Pane eventKey="first">
                                     <Row>
                                         {
-                                            projects.map((project, index) => {
+                                            project.map((project, index) => {
                                                 return (
                                                     <ProjectCard
                                                         key={index}
@@ -118,18 +137,31 @@ export const Projects = () => {
                                 <Tab.Pane eventKey="second">
                                 <Row>
                                         {
-                                            games.map((game, index) => {
+                                            back.map((back, index) => {
                                                 return (
                                                     <ProjectCard
                                                         key={index}
-                                                        {...game}
+                                                        {...back}
                                                     />
                                                 )
                                             })
                                         }
                                     </Row>
                                 </Tab.Pane>
-                                <Tab.Pane eventKey="third">Coming soon...</Tab.Pane>
+                                <Tab.Pane eventKey="third">
+                                    <Row>
+                                        {
+                                            fullstack.map((fullstack, index) => {
+                                                return (
+                                                    <ProjectCard
+                                                        key={index}
+                                                        {...fullstack}
+                                                    />
+                                                )
+                                            })
+                                        }
+                                    </Row>
+                                </Tab.Pane>
                             </Tab.Content>
                         </Tab.Container>
                     </Col>
