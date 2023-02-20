@@ -69,7 +69,7 @@ export const Projects = () => {
             demo: "https://drive.google.com/file/d/1ZwwHqGmNV0h2rFRgYWEclB5eyTrkMZgY/view",
         },
         {
-            title: "E-commerceBackend",
+            title: "EcommerceBackend",
             description: "Backend for E-commerce website",
             imgUrl: projImg8,
             Git: "https://github.com/Ahsan-Zaidi/E-commerceBackEnd",
