@@ -42,7 +42,7 @@ export const Projects = () => {
             description: "Generate an image using AI",
             imgUrl: projImg4,
             Git: "https://github.com/Ahsan-Zaidi/ai-image-generator",
-            demo: "https://ai-imager-generator.herokuapp.com/",
+            demo: "https://drive.google.com/file/d/1ODCxexGxhDrsgZSx_PFjKxGdQbT19QS7/view",
         },
         {
             title: "Password Generator",
