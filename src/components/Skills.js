@@ -1,8 +1,9 @@
 import Carousel from 'react-multi-carousel';
 import "react-multi-carousel/lib/styles.css";
-import meter1 from '../assets/img/meter1.svg';
-import meter2 from '../assets/img/meter2.svg';
-import meter3 from '../assets/img/meter3.svg';
+import Meter1 from '../assets/img/meter1.png';
+import Meter2 from '../assets/img/meter2.png';
+import Meter3 from '../assets/img/meter3.png';
+import Meter4 from '../assets/img/meter4.png';
 import colorSharp from '../assets/img/color-sharp.png';
 
 export const Skills = () => {
@@ -35,7 +36,7 @@ export const Skills = () => {
                             <p>Check out what skills I have to offer!<br></br>My goal is to expand this list to include many more languages and technologies</p>
                             <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                                 <div className="item">
-                                    <img src={meter1} alt="meter" />
+                                    <img src={Meter1} alt="meter" />
                                     <h5>FRONTEND</h5>
                                     <ul className='skill-item-list'>
                                         <li>Html5</li>
@@ -46,7 +47,7 @@ export const Skills = () => {
                                     </ul>
                                 </div>
                                 <div className="item">
-                                    <img src={meter1} alt="meter" />
+                                    <img src={Meter2} alt="meter" />
                                     <h5>BACKEND</h5>
                                     <ul className='skill-item-list'>
                                         <li>Node JS</li>
@@ -57,7 +58,7 @@ export const Skills = () => {
                                     </ul>
                                 </div>
                                 <div className="item">
-                                    <img src={meter3} alt="meter" />
+                                    <img src={Meter3} alt="meter" />
                                     <h5>TECHNOLOGY</h5>
                                     <ul className='skill-item-list'>
                                         <li>GitHub</li>
@@ -68,7 +69,7 @@ export const Skills = () => {
                                     </ul>
                                 </div>
                                 <div className="item">
-                                    <img src={meter2} alt="meter" />
+                                    <img src={Meter4} alt="meter" />
                                     <h5>INTANGIBLES</h5>
                                     <ul className='skill-item-list'>
                                         <li>SS API</li>
