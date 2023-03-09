@@ -3,7 +3,7 @@ import { Navbar, Container, Nav } from 'react-bootstrap';
 import navIcon1 from '../assets/img/nav-icon1.svg';
 import navIcon2 from '../assets/img/nav-icon2.svg';
 import navIcon3 from '../assets/img/nav-icon3.svg';
-import CV from '../assets/img/CV.pdf';
+import ARZresume from '../assets/img/Ahsan-Resume.pdf';
 
 export const NavBar = () => {
     const [activeLink, setActiveLink] = useState('home');
@@ -47,7 +47,7 @@ export const NavBar = () => {
                             <a href='mailto:zaidiahsan.r@gmail.com' target="_blank" rel="noreferrer"><img src={navIcon3} alt='' /></a>
                         </div>
                         <button className='vvd'>
-                            <a href={CV} download>CV/Resume</a>
+                            <a href={ARZresume} download>CV/Resume</a>
                         </button>
                     </span>
                 </Navbar.Collapse>
