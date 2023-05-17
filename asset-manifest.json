@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-profile/static/css/main.1e90a661.css",
-    "main.js": "/react-profile/static/js/main.d22098ae.js",
+    "main.js": "/react-profile/static/js/main.ed58ba81.js",
     "static/js/787.5c467991.chunk.js": "/react-profile/static/js/787.5c467991.chunk.js",
     "static/media/color-sharp.png": "/react-profile/static/media/color-sharp.bea361cfef80fefc2d1e.png",
     "static/media/color-sharp2.png": "/react-profile/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
@@ -12,8 +12,8 @@
     "static/media/project-img10.jpg": "/react-profile/static/media/project-img10.a8b0c6ee4fc61c59bc03.jpg",
     "static/media/banner-bg.png": "/react-profile/static/media/banner-bg.cc1273af450504afe755.png",
     "static/media/project-img12.jpg": "/react-profile/static/media/project-img12.c6dbd3e1e6cc39bde7e4.jpg",
-    "static/media/Ahsan_Zaidi_CV.pdf": "/react-profile/static/media/Ahsan_Zaidi_CV.414a27368c7ff6e0b556.pdf",
     "static/media/header-img.svg": "/react-profile/static/media/header-img.84bf93eb20488a753440bf83d27db7bb.svg",
+    "static/media/Ahsan_Zaidi_CV.pdf": "/react-profile/static/media/Ahsan_Zaidi_CV.f5a51dc1d4d0748c64a6.pdf",
     "static/media/project-img3.jpg": "/react-profile/static/media/project-img3.405d739a64bec1a0ed33.jpg",
     "static/media/project-img8.jpg": "/react-profile/static/media/project-img8.7953d9684165a6306dba.jpg",
     "static/media/project-img11.jpg": "/react-profile/static/media/project-img11.06c649aba37b363b4a63.jpg",
@@ -31,11 +31,11 @@
     "index.html": "/react-profile/index.html",
     "static/media/nav-icon1.svg": "/react-profile/static/media/nav-icon1.2f8373ec93320b4088c6ced7c2809dc1.svg",
     "main.1e90a661.css.map": "/react-profile/static/css/main.1e90a661.css.map",
-    "main.d22098ae.js.map": "/react-profile/static/js/main.d22098ae.js.map",
+    "main.ed58ba81.js.map": "/react-profile/static/js/main.ed58ba81.js.map",
     "787.5c467991.chunk.js.map": "/react-profile/static/js/787.5c467991.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1e90a661.css",
-    "static/js/main.d22098ae.js"
+    "static/js/main.ed58ba81.js"
   ]
 }
